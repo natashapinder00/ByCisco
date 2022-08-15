@@ -1,0 +1,29 @@
+.bg-img {
+    background: url("../src/images/ibiza.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -125px;
+}
+.logo {
+    max-width: 350px;
+    margin: -60px;
+    padding: 10px;
+    color:black;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+.logos {
+       text-align: center;
+       padding: 80px 10px;
+}
+
+.hero {
+    text-align: center;
+    font-family:Lora,Georgia,"Times New Roman",serif;
+    color: #FFFFFF; 
+    
+}
+
