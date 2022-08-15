@@ -27,3 +27,64 @@ footer {
     
 }
 
+:root {
+    --primary-color: #93c5e2;
+    --secondary-color: #f9f7fd;
+    --branding-color: #158dd8;
+}
+
+.bg-img {
+    background: url("../src/images/ibiza.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -30px;
+}
+
+.logo {
+    max-width: 350px;
+    margin: -60px;
+    padding: 10px;
+    color: black;
+}
+
+footer {
+    margin: 60px 0;
+}
+
+.logos {
+    text-align: center;
+    padding: 80px 10px;
+}
+
+.hero {
+    text-align: center;
+    font-family: Lora, Georgia, "Times New Roman", serif;
+    color: #FFFFFF;
+    padding: 10px 200px;
+
+}
+
+.btn-branding {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    border-radius: 4px;
+    color: #f5f2fe;
+
+}
+
+.btn-branding:hover {
+    background: white;
+    color: var(--primary-color);
+    box-shadow: none;
+    border-radius: none;
+    border-color: var(--primary-color);
+}
+
+.btn-branding-outline {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 400px;
+}
