@@ -46,7 +46,7 @@ footer {
     max-width: 350px;
     margin: -60px;
     padding: 10px;
-    color: black;
+    color: black;  
 }
 
 footer {
@@ -72,11 +72,11 @@ footer {
     border-radius: 4px;
     color: #f5f2fe;
     padding: 15px 20px;
+    font-family: futura;
 }
 
 .btn-branding:hover {
     background: white;
-    color: var(--primary-color);
     box-shadow: none;
     border-radius: none;
     border-color: var(--primary-color);
@@ -85,18 +85,19 @@ footer {
 .btn-branding-outline {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
-    border-radius: 10px;
-    font-size: 18px;
+    border-radius: 0px;
+    font-size: 20px;
     line-height: 27px;
     padding: 15px 30px;
 }
 
 .btn-branding-outline:hover {
-    background-color: var(--primary-color);
-    color: white;
+    background-color: white;
+    opacity: 60%;
     box-shadow: none;
     border-radius: none;
     border-color: var(--primary-color);
+    transition: all 0.3s ease 0.3s;
 }
 
 
