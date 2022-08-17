@@ -67,12 +67,11 @@ footer {
 }
 
 .btn-branding {
-    background: var(--primary-color);
+    background: transparent;
     box-shadow: var(--box-shadow);
-    border-radius: 4px;
-    color: #f5f2fe;
-    padding: 15px 20px;
-    font-family: futura;
+    border-radius: 1px;
+    padding: 12px 20px;
+    border-color: var(--primary-color);
 }
 
 .btn-branding:hover {
@@ -80,12 +79,14 @@ footer {
     box-shadow: none;
     border-radius: none;
     border-color: var(--primary-color);
+    color: #14859D;
+
 }
 
 .btn-branding-outline {
     color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-    border-radius: 0px;
+    border: 0px solid var(--primary-color);
+    border-radius: 1px;
     font-size: 20px;
     line-height: 27px;
     padding: 15px 30px;
@@ -121,34 +122,4 @@ footer {
         line-height: 56px;
     }
 
-}
-
-h2 {
-    font-size: 44px;
-}
-
-.btn {
-    font-size: 16px;
-}
-
-h3 {
-    font-size: 26px;
-}
-
-.hero {
-    padding: 80px 20px;
-}
-
-.content {
-    text-align: center;
-    padding: 0;
-}
-
-.project-description {
-    padding: 0;
-    text-align: center;
-}
-
-footer .contact-box {
-    padding: 30px;
 }
