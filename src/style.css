@@ -60,11 +60,13 @@ footer {
 
 .hero {
     text-align: center;
-    font-family: Lora, Georgia, "Times New Roman", serif;
+    font-size: 10px;
     color: #FFFFFF;
-    padding: 10px 200px;
+    padding: 100px 200px;
+    font-family: 'Noto Serif HK', serif;
 
 }
+
 
 .btn-branding {
     background: transparent;
@@ -72,6 +74,7 @@ footer {
     border-radius: 1px;
     padding: 12px 20px;
     border-color: var(--primary-color);
+    color: white;
 }
 
 .btn-branding:hover {
@@ -79,7 +82,6 @@ footer {
     box-shadow: none;
     border-radius: none;
     border-color: var(--primary-color);
-    color: #14859D;
 
 }
 
@@ -90,6 +92,7 @@ footer {
     font-size: 20px;
     line-height: 27px;
     padding: 15px 30px;
+    
 }
 
 .btn-branding-outline:hover {
@@ -99,6 +102,7 @@ footer {
     border-radius: none;
     border-color: var(--primary-color);
     transition: all 0.3s ease 0.3s;
+   
 }
 
 .vimeo {
