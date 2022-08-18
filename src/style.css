@@ -60,7 +60,6 @@ footer {
 
 .hero {
     text-align: center;
-    font-size: 10px;
     color: #FFFFFF;
     padding: 100px 200px;
     font-family: 'Noto Serif HK', serif;
@@ -105,25 +104,3 @@ footer {
    
 }
 
-.vimeo {
-    margin-top: 60px;
-}
-
-@media (min-width: 768px) {
-    .content-container {
-        padding: 80px 100px;
-    }
-
-    .content h1 {
-        font-size: 70px;
-        line-height: 80px;
-    }
-}
-
-@media (max-width: 900px) {
-    h1 {
-        font-size: 44px;
-        line-height: 56px;
-    }
-
-}
