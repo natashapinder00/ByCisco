@@ -110,4 +110,23 @@ footer {
         Georgia,
         "Times New Roman",
         serif;
+    
+        
+}
+
+.row {
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.nunito {
+    font-family:'nunito';
+    width: 350px;
+      
+}
+
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
 }
