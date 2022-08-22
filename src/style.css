@@ -104,6 +104,10 @@ footer {
    
 }
 
-.row {
-    
+.container {
+    color: #34235e;
+    font-family: Lora,
+        Georgia,
+        "Times New Roman",
+        serif;
 }
