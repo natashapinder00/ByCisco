@@ -66,6 +66,7 @@ footer {
     background: white;
     box-shadow: none;
     border-radius: none;
+    transition: 0.7s;
     border-color: var(--primary-color);
 
 }
