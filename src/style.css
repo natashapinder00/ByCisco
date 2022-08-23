@@ -11,14 +11,13 @@
     background-position-y: -125px;
 }
 .logo {
-    max-width: 350px;
-    margin: -60px;
-    padding: 10px;
-    color:black;
-}
-.logos {
     text-align: center;
-    padding: 80px 10px;
+
+}
+
+.logo img {
+    width: 30%;
+    
 }
 
 footer {
@@ -60,6 +59,7 @@ footer {
     padding: 12px 20px;
     border-color: var(--primary-color);
     color: white;
+    font-family: 'nunito';
 }
 
 .btn-branding:hover {
@@ -103,12 +103,20 @@ footer {
 .nunito {
     font-family:'nunito';
     width: 350px;
+    letter-spacing: 0.8px;
       
 }
 
+h1 {
+    font-family: 'Times New Roman';
+    font-size: 30px;
+}
+h2 {
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+
 .left-image {
-    height: 100vh !important;
-    width: auto !important;
-    display: block;
     float: left;
 }
