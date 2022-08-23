@@ -124,11 +124,12 @@ h2 {
 .float-left {
     float: left;
     position: relative;
-    margin-top: 0px;
+   
        
 }
 
+
 .text {
-    margin-left: 50px;
-    width: 100px;
+    margin-left: 80px;
+
 }
