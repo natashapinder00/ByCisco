@@ -146,10 +146,9 @@ color: #af866c;
 
 
  .social-links a {
-    margin: 40px;
+    margin: 30px;
     color: #027082;
-    padding: 12px;
-    font-size: 30px;
+    font-size: 25px;
     transition: all 100ms ease-in-out;
    
 }
