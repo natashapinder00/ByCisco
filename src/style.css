@@ -20,11 +20,7 @@
     
 }
 
-.footer {
-text-align: left;
-font-family: 'nunito';
 
-}
 
 .hero {
     text-align: center;
@@ -150,15 +146,21 @@ color: #af866c;
 
 
  .social-links a {
-    margin: 0 20px;
+    margin: 40px;
     color: #027082;
-    padding: 10px 14px;
+    padding: 12px;
     font-size: 30px;
-    border-radius: 50%;
     transition: all 100ms ease-in-out;
-    
+   
 }
 
  .social-links a:hover {
    color: black;
+}
+
+.footer {
+    text-align: left;
+    font-family: 'nunito';
+    margin: 60px;
+
 }
