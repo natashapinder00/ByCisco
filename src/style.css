@@ -22,6 +22,7 @@
 
 .footer {
 text-align: left;
+font-family: 'nunito';
 
 }
 
@@ -146,17 +147,18 @@ color: #af866c;
 }
 
 
-.bi-instagram { 
-font-size: 24px;
-color: blue;
+
+
+ .social-links a {
+    margin: 0 20px;
+    color: #027082;
+    padding: 10px 14px;
+    font-size: 30px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+    
 }
 
-.bi-facebook {
-    font-size: 24px;
-    color: blue;
-}
-
-.bi-envelope {
-    font-size: 24px;
-    color: blue;
+ .social-links a:hover {
+   color: black;
 }
