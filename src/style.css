@@ -27,7 +27,7 @@ text-align: left;
 
 .hero {
     text-align: center;
-    font-family:Lora,Georgia,"Times New Roman",serif;
+    font-family: 'brittany';
     color: #FFFFFF; 
 }
 
@@ -137,4 +137,10 @@ h3 {
 .text {
     margin-left: 20px;
 
+}
+
+.brittany {
+font-family: 'Brittany Signature', sans-serif;
+font-size: 20px;
+color: #af866c;
 }
