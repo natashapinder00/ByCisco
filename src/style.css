@@ -135,7 +135,7 @@ h3 {
 
 
 .text {
-    margin-left: 20px;
+    margin-left: 40px;
 
 }
 
@@ -143,4 +143,20 @@ h3 {
 font-family: 'Brittany Signature', sans-serif;
 font-size: 20px;
 color: #af866c;
+}
+
+
+.bi-instagram { 
+font-size: 24px;
+color: blue;
+}
+
+.bi-facebook {
+    font-size: 24px;
+    color: blue;
+}
+
+.bi-envelope {
+    font-size: 24px;
+    color: blue;
 }
