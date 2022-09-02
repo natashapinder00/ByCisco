@@ -21,11 +21,6 @@
     width: 30%;
 }
 
-.hero {
-    text-align: center;
-    font-family: 'brittany';
-    color: #FFFFFF;
-}
 
 
 .bg-img {
@@ -36,13 +31,12 @@
 }
 
 
-
-
 .hero {
     text-align: center;
     color: #FFFFFF;
     padding: 100px 200px;
-    font-family: 'Noto Serif HK', serif;
+    font-family: 'Brittany Signature',
+        sans-serif;
 
 }
 
@@ -98,12 +92,15 @@
 .nunito {
     font-family: 'nunito';
     width: 460px;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.9px;
+    line-height: 24px;
+    
+    Color: #666666;
 
 }
 
 h1 {
-    font-family: 'Times New Roman';
+    font-family: 'nunito';
     font-size: 30px;
     text-align: center;
 }
@@ -111,13 +108,21 @@ h1 {
 h2 {
     margin-top: 40px;
     font-size: 20px;
+    font-family: 'nunito';
+   
 
 
 }
 
 h3 {
     margin-top: 60px;
-    font-size: 30px;
+    font-size: 18px;
+    font-family: Nunito,
+        Helvetica,
+        Arial,
+        Lucida,
+        sans-serif;
+    letter-spacing: 4px;
 }
 
 
@@ -130,36 +135,35 @@ h3 {
 
 .text {
     margin-left: 40px;
-
+    
 }
 
 .brittany {
     font-family: 'Brittany Signature', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color: #af866c;
+  
 }
-
-
 
 
 * {
     box-sizing: border-box;
-  
 }
-
 input {
     display: block;
     width: 50%;
-    padding: 10px;
     position: relative;
     margin: 0 auto;
-    margin-bottom: 10px;
-    
+    margin-bottom: 15px;
+
 }
+
 
 .type-1 {
     border: 1px solid #eee;
     transition: .3s border-color;
+    font-family: 'nunito';
+    padding: 15px;
 }
 
 .type-1:hover {
@@ -170,8 +174,9 @@ input {
 
 .type-2 {
     border: 1px solid #eee;
-    
     transition: .3s border-color;
+    font-family: 'nunito';
+    padding: 15px;
 }
 
 .type-2:hover {
@@ -182,13 +187,35 @@ input {
 .type-3 {
     border: 1px solid #eee;
     transition: .3s border-color;
-    
+    font-family: 'nunito';
+    padding: 15px;
+  
 }
 
 .type-3:hover {
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
     transition: 0.3s;
 }
+
+.type-4 {
+    border: 1px solid #eee;
+    transition: .3s border-color;
+    font-family: 'nunito';  
+    padding: 40px;
+    text-align: center;
+    
+}
+
+
+
+.type-4:hover {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+
+
+
 .social-links a {
     margin: 30px;
     color: #027082;
