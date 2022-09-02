@@ -1,3 +1,4 @@
+
 :root {
     --primary-color: #FFFFFF;
     --secondary-color: #f9f7fd;
@@ -10,6 +11,7 @@
     background-size: cover;
     background-position-y: -125px;
 }
+
 .logo {
     text-align: center;
 
@@ -17,15 +19,12 @@
 
 .logo img {
     width: 30%;
-    
 }
-
-
 
 .hero {
     text-align: center;
     font-family: 'brittany';
-    color: #FFFFFF; 
+    color: #FFFFFF;
 }
 
 
@@ -74,7 +73,7 @@
     font-size: 20px;
     line-height: 27px;
     padding: 15px 30px;
-    
+
 }
 
 .btn-branding-outline:hover {
@@ -84,7 +83,7 @@
     border-radius: none;
     border-color: var(--primary-color);
     transition: all 0.3s ease 0.3s;
-   
+
 }
 
 .container {
@@ -92,17 +91,15 @@
     font-family: Lora,
         Georgia,
         "Times New Roman",
-        serif; 
-   
-   
+        serif;
 }
 
 
 .nunito {
-    font-family:'nunito';
+    font-family: 'nunito';
     width: 460px;
     letter-spacing: 0.8px;
-      
+
 }
 
 h1 {
@@ -127,7 +124,7 @@ h3 {
 .float-left {
     float: left;
     position: relative;
-          
+
 }
 
 
@@ -137,24 +134,65 @@ h3 {
 }
 
 .brittany {
-font-family: 'Brittany Signature', sans-serif;
-font-size: 20px;
-color: #af866c;
+    font-family: 'Brittany Signature', sans-serif;
+    font-size: 20px;
+    color: #af866c;
 }
 
 
+* {
+    box-sizing: border-box;
+}
 
+input {
+    display: block;
+    width: 50%;
+    margin: 15px 0;
+    padding: 10px;
+}
 
- .social-links a {
+.type-1 {
+    border: 1px solid #eee;
+    transition: .3s border-color;
+}
+
+.type-1:hover {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    
+}
+
+.type-2 {
+    border: 1px solid #eee;
+    
+    transition: .3s border-color;
+}
+
+.type-2:hover {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+.type-3 {
+    border: 1px solid #eee;
+    transition: .3s border-color;
+    
+}
+
+.type-3:hover {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+.social-links a {
     margin: 30px;
     color: #027082;
     font-size: 25px;
     transition: all 100ms ease-in-out;
-   
+
 }
 
- .social-links a:hover {
-   color: black;
+.social-links a:hover {
+    color: black;
 }
 
 .footer {
