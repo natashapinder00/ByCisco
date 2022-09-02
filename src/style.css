@@ -140,15 +140,21 @@ h3 {
 }
 
 
+
+
 * {
     box-sizing: border-box;
+  
 }
 
 input {
     display: block;
     width: 50%;
-    margin: 15px 0;
     padding: 10px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    
 }
 
 .type-1 {
