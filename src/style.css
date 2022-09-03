@@ -9,26 +9,24 @@
     background: url("../src/images/ibiza.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -125px;
+    background-position-y: -90px;
+    
 }
 
 .logo {
     text-align: center;
+    
 
 }
 
 .logo img {
     width: 30%;
+    position: relative;
+        right: 55px;
+        top: 20px;
+
 }
 
-
-
-.bg-img {
-    background: url("../src/images/ibiza.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: -30px;
-}
 
 
 .hero {
@@ -45,7 +43,7 @@
     background: transparent;
     box-shadow: var(--box-shadow);
     border-radius: 1px;
-    padding: 12px 20px;
+    padding: 20px 30px;
     border-color: var(--primary-color);
     color: white;
     font-family: 'nunito';
@@ -100,18 +98,23 @@
 }
 
 h1 {
-    font-family: 'nunito';
+    font-family: 'times new roman';
     font-size: 30px;
+    letter-spacing: 1px;
     text-align: center;
+    position: relative;
+    top: 28px;
 }
 
 h2 {
     margin-top: 40px;
-    font-size: 20px;
-    font-family: 'nunito';
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-family: 'times new roman';
+    position: relative;
+        top: 20px;
+        left: 100px;
    
-
-
 }
 
 h3 {
