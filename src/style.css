@@ -15,7 +15,6 @@
 
 .logo {
     text-align: center;
-    
 
 }
 
@@ -24,9 +23,7 @@
     position: relative;
         right: 55px;
         top: 20px;
-
 }
-
 
 
 .hero {
@@ -74,7 +71,7 @@
     box-shadow: none;
     border-radius: none;
     border-color: var(--primary-color);
-    transition: all 0.3s ease 0.3s;
+    transition: all 0.3s ease 0.3s; 
 
 }
 
@@ -210,56 +207,23 @@ input {
     
 }
 
-
-
 .type-4:hover {
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
     transition: 0.3s;
 }
 
-
-.send-button { background: transparent;
-    box-shadow: var(--box-shadow);
-    border-radius: 1px;
-    padding: 20px 30px;
-    border-color: var(--primary-color);
-    color: white;
-    font-family: 'nunito';
-    display: block;
-        width: 50%;
-        position: relative;
-        margin: 0 auto;
-        margin-bottom: 15px;
-
+.submit {
+    
+    border: 1px solid #eee;
+        transition: .3s border-color;
+        font-family: 'nunito';
+        padding: 15px;
+        width: 10%;
 }
 
-.send-button:hover {
-    background: white;
-    box-shadow: none;
-    border-radius: none;
-    transition: 0.7s;
-    border-color: var(--primary-color);
-
-}
-
-.send-button-outline {
-    color: var(--primary-color);
-    border: 0px solid var(--primary-color);
-    border-radius: 1px;
-    font-size: 20px;
-    line-height: 27px;
-    padding: 15px 30px;
-
-}
-
-.send-button-outline:hover {
-    background-color: white;
-    opacity: 60%;
-    box-shadow: none;
-    border-radius: none;
-    border-color: var(--primary-color);
-    transition: all 0.3s ease 0.3s;
-
+.submit:hover {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+        transition: 0.3s;
 }
 
 .social-links a {
