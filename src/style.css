@@ -1,4 +1,3 @@
-
 :root {
     --primary-color: #FFFFFF;
     --secondary-color: #f9f7fd;
@@ -10,7 +9,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -90px;
-    
+
 }
 
 .logo {
@@ -21,8 +20,8 @@
 .logo img {
     width: 30%;
     position: relative;
-        right: 55px;
-        top: 20px;
+    right: 55px;
+    top: 20px;
 }
 
 
@@ -71,7 +70,7 @@
     box-shadow: none;
     border-radius: none;
     border-color: var(--primary-color);
-    transition: all 0.3s ease 0.3s; 
+    transition: all 0.3s ease 0.3s;
 
 }
 
@@ -89,7 +88,7 @@
     width: 460px;
     letter-spacing: 0.9px;
     line-height: 24px;
-    
+
     Color: #666666;
 
 }
@@ -109,9 +108,9 @@ h2 {
     letter-spacing: 1px;
     font-family: 'times new roman';
     position: relative;
-        top: 20px;
-        left: 100px;
-   
+    top: 20px;
+    left: 100px;
+
 }
 
 h3 {
@@ -137,7 +136,7 @@ h3 {
 .text {
     margin-left: 40px;
     margin-top: 62px;
-    font-size: 14px;   
+    font-size: 14px;
 }
 
 .text-2 {
@@ -150,7 +149,7 @@ h3 {
     font-family: 'Brittany Signature', sans-serif;
     font-size: 25px;
     color: #af866c;
-  
+
 }
 
 
@@ -178,7 +177,7 @@ input {
 .type-1:hover {
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
     transition: 0.3s;
-    
+
 }
 
 .type-2 {
@@ -198,7 +197,7 @@ input {
     transition: .3s border-color;
     font-family: 'nunito';
     padding: 15px;
-  
+
 }
 
 .type-3:hover {
@@ -209,10 +208,10 @@ input {
 .type-4 {
     border: 1px solid #eee;
     transition: .3s border-color;
-    font-family: 'nunito';  
+    font-family: 'nunito';
     padding: 40px;
     text-align: center;
-    
+
 }
 
 .type-4:hover {
@@ -221,17 +220,17 @@ input {
 }
 
 .submit {
-    
+
     border: 1px solid #eee;
-        transition: .3s border-color;
-        font-family: 'nunito';
-        padding: 15px;
-        width: 10%;
+    transition: .3s border-color;
+    font-family: 'nunito';
+    padding: 15px;
+    width: 10%;
 }
 
 .submit:hover {
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
-        transition: 0.3s;
+    transition: 0.3s;
 }
 
 .social-links a {
