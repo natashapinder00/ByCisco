@@ -238,7 +238,7 @@ input {
     color: #027082;
     font-size: 25px;
     transition: all 100ms ease-in-out;
-
+    text-decoration: none;
 }
 
 .social-links a:hover {
