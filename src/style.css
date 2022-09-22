@@ -16,6 +16,8 @@ body {
     overflow-x: hidden;
 }
 
+
+
 .logo {
     text-align: center;
 
@@ -100,21 +102,24 @@ body {
 h1 {
     font-family:'Brittany Signature',
         sans-serif;
-    font-size: 40px;
+        
+    font-size: 38px;
     letter-spacing: 1px;
     text-align: center;
     position: relative;
-    top: 100px;
+    top: 80px;
 }
 
 h2 {
+    font-family:'Brittany Signature',
+    sans-serif;
     margin-top: 40px;
-    font-size: 17px;
-    letter-spacing: 1px;
-    font-family: 'nunito';
+    font-size: 20px;
+    letter-spacing: 2px;
+    
     position: relative;
-    top: 80px;
-    left: 100px;
+    top: 62px;
+    
 
 }
 
@@ -138,15 +143,21 @@ h3 {
 }
 
 
+.text-opening {
+    margin-left: 0px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
 .text {
-    margin-left: 40px;
+    margin-left: 0px;
     margin-top: 62px;
     font-size: 14px;
 }
 
 .text-2 {
-    margin-left: 40px;
-    margin-top: 80px;
+    margin-left: 110px;
+    margin-top: 50px;
     font-size: 14px;
 }
 
