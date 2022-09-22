@@ -268,3 +268,9 @@ input {
     font-size: 12px;
 }
 
+.carousel-item active {
+    width: 640px;
+        height: 360px;
+
+
+}
