@@ -10,10 +10,12 @@
     background-size: cover;
     background-position-y: -90px;
 
+
 }
 
 body {
     overflow-x: hidden;
+    
 }
 
 
@@ -34,17 +36,19 @@ body {
 .hero {
     text-align: center;
     color: #FFFFFF;
-    padding: 100px 200px;
+    padding-bottom: 150px;
     font-family: 'Brittany Signature',
         sans-serif;
 
 }
 
 
+
 .btn-branding {
     background: transparent;
     box-shadow: var(--box-shadow);
     border-radius: 1px;
+
     padding: 20px 30px;
     border-color: var(--primary-color);
     color: white;
@@ -86,6 +90,8 @@ body {
         Georgia,
         "Times New Roman",
         serif;
+        text-align: center;
+        
 }
 
 
@@ -102,12 +108,12 @@ body {
 h1 {
     font-family:'Brittany Signature',
         sans-serif;
-        
-    font-size: 38px;
-    letter-spacing: 1px;
+        color: white;
+    font-size: 36px;
+    letter-spacing: 2px;
     text-align: center;
     position: relative;
-    top: 80px;
+    top: 10px;
 }
 
 h2 {
@@ -116,9 +122,9 @@ h2 {
     margin-top: 40px;
     font-size: 20px;
     letter-spacing: 2px;
-    
+    color: white;
     position: relative;
-    top: 62px;
+    top: -15px;
     
 
 }
@@ -270,7 +276,7 @@ input {
 
 .carousel-item active {
     width: 640px;
-        height: 360px;
+    height: 360px;
 
 
 }
