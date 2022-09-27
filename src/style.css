@@ -190,6 +190,30 @@ input {
 
 }
 
+.carousel-item active {
+    width: 640px;
+    height: 360px;
+
+
+}
+
+
+.carousel-item {
+    transition: transform 2.6s ease-in-out;
+
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+    transition: opacity 0s 2.4s;
+}
+
+.p-3 {
+    text-align: left;
+    margin-left: 120px;
+   
+    
+}
 
 .type-1 {
     border: 1px solid #eee;
@@ -258,7 +282,7 @@ input {
 }
 
 .social-links a {
-    margin: 30px;
+    margin: 35px;
     color: #027082;
     font-size: 25px;
     transition: all 100ms ease-in-out;
@@ -269,27 +293,19 @@ input {
     color: black;
 }
 
+.logo-2 img {
+    width: 10%;
+    position: relative;
+    margin-bottom: 30px;
+    
+
+}
+
+
 .footer {
     text-align: center;
     font-family: 'nunito';
-    margin: 60px;
+    margin: 20px;
     font-size: 12px;
 }
 
-.carousel-item active {
-    width: 640px;
-    height: 360px;
-
-
-}
-
-
-.carousel-item {
-    transition: transform 2.6s ease-in-out;
-    
-}
-
-.carousel-fade .active.carousel-item-start,
-.carousel-fade .active.carousel-item-end {
-    transition: opacity 0s 2.4s;
-}
