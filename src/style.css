@@ -97,7 +97,7 @@ body {
 
 .nunito {
     font-family: 'nunito';
-    width: 460px;
+    width: 442px;
     letter-spacing: 0.9px;
     line-height: 24px;
 
@@ -120,7 +120,7 @@ h1 {
 h2 {
     font-family:'Brittany Signature',
     sans-serif;
-  padding: 8%;
+  padding: 7%;
     font-size: 20px;
     letter-spacing: 2px;
     color: white;
@@ -132,7 +132,7 @@ h2 {
 }
 
 h3 {
-    margin-top: 10px;
+    margin-top: 1px;
     font-size: 18px;
     font-family: Nunito,
         Helvetica,
@@ -152,27 +152,43 @@ h3 {
 
 
 .text-opening {
-    margin-left: 0px;
-    margin-top: 10px;
+   
+  
     font-size: 14px;
+    margin-top: -5%;
 }
 
 .text {
     margin-left: 0px;
-    margin-top: 62px;
+    margin-top: 80px;
     font-size: 14px;
+    padding-right: 23%;
+    
+
 }
 
 .text-2 {
     margin-left: 110px;
-    margin-top: 50px;
+    margin-top: 80px;
     font-size: 14px;
+    
+}
+
+.text-3 {
+    margin-left: 0px;
+    margin-top: 66px;
+    font-size: 14px;
+    padding-right: 23%
+   
+
+
 }
 
 .brittany {
     font-family: 'Brittany Signature', sans-serif;
     font-size: 25px;
     color: #af866c;
+    margin-top: 1%;
 
 }
 
@@ -212,10 +228,10 @@ input {
 
 .p-3 {
    
-        width: 110%;
-        text-align: left;
-        margin-left: 55%;
-        margin-top: -10%;
+        width: 112%;
+            text-align: left;
+            margin-left: 28%;
+            margin-top: -10%;
     
     
 
