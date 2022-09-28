@@ -113,20 +113,20 @@ h1 {
     letter-spacing: 2px;
     text-align: center;
     position: relative;
-    top: 10px;
-    padding: 1%;
+    top: -10px;
+    
 }
 
 h2 {
     font-family:'Brittany Signature',
     sans-serif;
-    margin-top: 10px;
+  padding: 8%;
     font-size: 20px;
     letter-spacing: 2px;
     color: white;
     position: relative;
-  
-    padding: 5%;
+ 
+   
     
 
 }
