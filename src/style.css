@@ -106,11 +106,10 @@ body {
 }
 
 h1 {
-    font-family:'Brittany Signature',
-        sans-serif;
-        color: white;
-    font-size: 50px;
-    letter-spacing: 2px;
+font-family:'Brittany Signature',
+    sans-serif;
+    font-size: 48px;
+    letter-spacing: 4px;
     text-align: center;
     position: relative;
     top: -10px;
@@ -183,7 +182,8 @@ h3 {
 }
 
 .brittany {
-    font-family: 'Brittany Signature', sans-serif;
+    font-family: 'Brittany Signature',
+        sans-serif;
     font-size: 44px;
     color: #af866c;
     margin-top: 3%;
@@ -199,7 +199,7 @@ h3 {
     font-size: 44px;
     color: #af866c;
     
-    margin-bottom: 2%;
+    margin-bottom: 4%;
     text-align: center;
 
 
@@ -320,13 +320,13 @@ input {
 .social-links a {
     margin: 35px;
     color: #027082;
-    font-size: 25px;
+    font-size: 28px;
     transition: all 100ms ease-in-out;
     text-decoration: none;
 }
 
 .social-links a:hover {
-    color: black;
+    color: orange;
 }
 
 .logo-2 img {
