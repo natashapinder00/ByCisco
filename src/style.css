@@ -208,10 +208,17 @@ input {
     transition: opacity 0s 2.4s;
 }
 
+
+
 .p-3 {
-    text-align: left;
-    margin-left: 120px;
    
+        width: 110%;
+        text-align: left;
+        margin-left: 55%;
+        margin-top: -10%;
+    
+    
+
     
 }
 
