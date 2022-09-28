@@ -120,20 +120,17 @@ h1 {
 h2 {
     font-family:'Brittany Signature',
     sans-serif;
-  padding: 7%;
+    padding: 7%;
     font-size: 20px;
     letter-spacing: 2px;
     color: white;
     position: relative;
- 
-   
-    
-
 }
+
 
 h3 {
     margin-top: 1px;
-    font-size: 18px;
+    font-size: 20px;
     font-family: Nunito,
         Helvetica,
         Arial,
@@ -152,10 +149,10 @@ h3 {
 
 
 .text-opening {
-   
+    margin-top: -60px;
   
     font-size: 14px;
-    margin-top: -5%;
+   
 }
 
 .text {
@@ -177,8 +174,9 @@ h3 {
 .text-3 {
     margin-left: 0px;
     margin-top: 66px;
+    margin-bottom: 12%;
     font-size: 14px;
-    padding-right: 23%
+    padding-right: 20%
    
 
 
@@ -186,12 +184,27 @@ h3 {
 
 .brittany {
     font-family: 'Brittany Signature', sans-serif;
-    font-size: 25px;
+    font-size: 44px;
     color: #af866c;
-    margin-top: 1%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    text-align: center;
+   
+
 
 }
 
+.brittany-2 {
+    font-family: 'Brittany Signature', sans-serif;
+    font-size: 44px;
+    color: #af866c;
+    
+    margin-bottom: 2%;
+    text-align: center;
+
+
+
+}
 
 * {
     box-sizing: border-box;
