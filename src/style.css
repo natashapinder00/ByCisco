@@ -26,7 +26,7 @@ body {
 }
 
 .logo img {
-    width: 15%;
+    width: 18%;
     
    
 }
@@ -162,9 +162,9 @@ h3 {
 
 .text {
     margin-left: 0px;
-    margin-top: 80px;
+    margin-top: 70px;
     font-size: 14px;
-    padding-right: 23%;
+    
     
     
 
@@ -172,19 +172,21 @@ h3 {
 
 .text-2 {
 margin-left: 3rem;
-    margin-top: 80px;
+    margin-top: 4rem;
     font-size: 14px;
     
 }
 
 .text-3 {
-margin-left: 3rem;
-    margin-top: 80px;
-    font-size: 14px;
+    
+margin-left: 4rem;
+    margin-top: 2rem;
    
-
-
+    font-size: 13px;
 }
+
+
+
 
 .brittany {
     font-family: 'Brittany Signature',
@@ -203,7 +205,7 @@ margin-left: 3rem;
     font-size: 44px;
     color: #af866c;
     
-    margin-bottom: 4%;
+    margin-top: 4%;
     text-align: center;
 
 
